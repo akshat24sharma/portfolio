@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 224, 237);
+}
+
+#header-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    padding-left: 10%;
+}
+
+#main-container {
+    background-color: white;
+    height: 100%;
+    opacity: 1;
+}
+
+hr {
+    fill: rgb(241, 224, 237);
+    border-color: rgb(241, 224, 237);
+    filter: drop-shadow(20px 20px 11px black);
+}
+
+#home-link {
+    font-size: 20px;
+    margin-left: 30%;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#facebook-link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#github-link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#container {
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes cont-anim {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#lines {
+    font-size: 40px;
+    animation-name: cont-anim;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes cont-anim {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#intro-line {
+    font-family: segoe script;
+    animation-name: intro-anim;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes intro-anim {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#love {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#images {
+    position: relative;
+    left: 60%;
+    bottom: 360px;
+}
+
+#leftl,
+#rightl {
+    padding: 0;
+    margin-left: 5%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 50px;
+    transform: translateX(-110%);
+    opacity: 0;
+    animation-name: leaf-anim;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes leaf-anim {
+    from {
+        transform: translateX(110%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+#slider1,
+#slider2 {
+    height: 330px;
+    width: 350px;
+    padding-top: 50px;
+    transform-style: flat;
+    transform: translateX(-100%);
+    transform-origin: right;
+    animation-name: slider-anim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slider-anim {
+    from {
+        transform: translateX(110%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+#image-right {
+    position: relative;
+    right: 100px;
+}
+
+#about {
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#cris-image1,
+#salting-image {
+    padding: 50px;
+    margin-left: 7%;
+    height: 100px;
+    width: 460px;
+}
+
+#cris1-intro,
+#salting-intro {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 100px;
+}
+
+#salting-img {
+    height: 700px;
+    width: 560px;
+}
+
+#cris1-img,
+#cris2-img,
+#salting-img {
+    box-shadow: -12px -12px 12px 0 rgb(255, 255, 255, 1), 12px 12px 12px 0 rgb(0, 0, 0, .3);
+    height: 600px;
+    width: 460px;
+}
+
+#cris-image2 {
+    padding: 50px;
+    margin-left: 60%;
+    position: relative;
+    top: 500px;
+}
+
+#salting-image {
+    position: relative;
+    top: 450px;
+}
+
+#cris2-intro {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 120px;
+    text-align: right;
+    margin-right: 190px;
+    width: 90.5%;
+}
+
+#small-train1 {
+    height: 80px;
+    width: 70px;
+}
