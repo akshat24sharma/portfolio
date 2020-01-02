@@ -198,8 +198,8 @@ hr {
 #cris2-img,
 #salting-img {
     box-shadow: -12px -12px 12px 0 rgb(255, 255, 255, 1), 12px 12px 12px 0 rgb(0, 0, 0, .3);
-    height: 600px;
-    width: 460px;
+    height: 600vp;
+    width: 460vp;
 }
 
 #cris-image2 {
