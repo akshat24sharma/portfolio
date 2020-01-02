@@ -3,14 +3,20 @@
     padding: 0;
     background-color: rgb(241, 224, 237);
 }
-img{
-    max-width:100%;height:auto;
-    width:100%;
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+#links {
+    float: right;
 }
 
 #header-name {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
+    font-size: 9vh;
     font-style: italic;
     padding-left: 10%;
 }
@@ -28,31 +34,31 @@ hr {
 }
 
 #home-link {
-    font-size: 20px;
+    font-size: 3vh;
     margin-left: 30%;
     color: black;
     text-decoration: none;
-    padding: 20px;
+    padding: 4vh;
 }
 
 #facebook-link {
-    font-size: 20px;
+    font-size: 3vh;
     color: black;
     text-decoration: none;
-    padding: 20px;
+    padding: 4vh;
 }
 
 #github-link {
-    font-size: 20px;
+    font-size: 3vh;
     color: black;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 4vh;
 }
 
 #container {
     padding-left: 10%;
     padding-top: 10%;
-    font-size: 45px;
+    font-size: 6vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -66,7 +72,7 @@ hr {
 }
 
 #lines {
-    font-size: 40px;
+    font-size: 5vh;
     animation-name: cont-anim;
     animation-duration: 1.5s;
     animation-delay: 1s;
@@ -109,15 +115,15 @@ hr {
 #images {
     position: relative;
     left: 60%;
-    bottom: 360px;
+    bottom: 50vh;
 }
 
 #leftl,
 #rightl {
-    padding: 0;
     margin-left: 5%;
-    height: 70px;
-    width: 70px;
+    max-width: 4vw;
+    height: auto;
+    width: 100%;
     position: relative;
     right: 50px;
     transform: translateX(-110%);
@@ -139,11 +145,11 @@ hr {
     }
 }
 
-#slider1,
-#slider2 {
-    height: 330px;
-    width: 350px;
-    padding-top: 50px;
+#slider1 {
+    margin-top: 20vh;
+    max-width: 25vw;
+    height: auto;
+    width: 100%;
     transform-style: flat;
     transform: translateX(-100%);
     transform-origin: right;
@@ -168,7 +174,7 @@ hr {
 
 #about {
     text-align: center;
-    font-size: 40px;
+    font-size: 6vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
@@ -177,13 +183,13 @@ hr {
 #salting-image {
     padding: 50px;
     margin-left: 7%;
-    height: 100px;
-    width: 460px;
+    height: 60vh;
+    width: 60vh;
 }
 
 #cris1-intro,
 #salting-intro {
-    font-size: 30px;
+    font-size: 3vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     bottom: 100px;
@@ -198,24 +204,24 @@ hr {
 #cris2-img,
 #salting-img {
     box-shadow: -12px -12px 12px 0 rgb(255, 255, 255, 1), 12px 12px 12px 0 rgb(0, 0, 0, .3);
-    height: 600vp;
-    width: 460vp;
+    height: 80vh;
+    width: 60vh;
 }
 
 #cris-image2 {
     padding: 50px;
-    margin-left: 60%;
-    position: relative;
-    top: 500px;
+    margin-left: 55%;
+    padding-top: 30vh;
+    width: 60vh;
 }
 
 #salting-image {
     position: relative;
-    top: 450px;
+    top: px;
 }
 
 #cris2-intro {
-    font-size: 30px;
+    font-size: 3vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     bottom: 100px;
