@@ -57,6 +57,7 @@ hr {
 }
 
 #container {
+    z-index:1;
     padding-left: 10%;
     padding-top: 10%;
     font-size: 6vh;
@@ -147,6 +148,7 @@ hr {
 }
 
 #slider1 {
+    z-index:1;
     margin-top: 20vh;
     max-width: 25vw;
     height: auto;
