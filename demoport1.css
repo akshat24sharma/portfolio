@@ -218,10 +218,7 @@ hr {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    bottom: 120px;
-    text-align: right;
-    margin-right: 190px;
-    width: 90.5%;
+    bottom: 100px;
 }
 
 #small-train1 {
